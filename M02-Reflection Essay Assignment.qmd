@@ -1,0 +1,150 @@
+---
+title: "M02-Introduction to Data Science in R-Reflection"
+author: "Geovanni Flores"
+date: "February 15, 2026"
+format: 
+  html: 
+    toc: true
+    toc-depth: 4
+    number-sections: true
+    code-link: true
+    theme: cosmo
+    code-overflow: wrap
+    code-fold: true
+    code-tools: true
+    embed-resources: true
+editor: visual
+execute: 
+  freeze: auto
+---
+
+## Summarize new things you learned in this module about reproducible data science and literate coding.
+
+::: callout-note
+### My Response
+
+In this module, I learned about the reproducible data science. It was a creating analyses that can be rerun and verified by anyone. Instead of manually editing spreadsheets/copying results into different document reproducible workflows integrate data code written explanation all into one unified file. This ensured transparency, reduces human error, and improves credibility. If the data changes, you can simply rerun the document and with that automatically updates the results.
+
+I also learned that literate coding means combining narrative text with executable code in a structured way. The alternative would be writing code separately and explaining it somewhere else. Literate programming allows explaining and the computation to exist together. Quarto makes this by embedding code chunks directly to a document. This approach also improves the organization, documentation, and collaboration. The reasoning behind each step is explained alongside the actual analysis.
+
+This module helped me with understand that reproducibility is not just a technical feature—it is a professional standard. Documenting workflows and using tools like Quarto, I can produce work that is more reliable, efficient, and easier to share in academic and professional environments.
+:::
+
+## Summarize the instructor's lecture about Quarto that you found impressive. Do you see yourself using Quarto every day for your job or study, like taking notes in your class or preparing a presentation? More eye-catching effects will be introduced in later modules.
+
+::: callout-note
+### My Response
+
+I found the instructors lecture on quarto to be demonstrated on how it's more than a replacement for R Markdown. What impressed me about the the lecture was how Quarto was integrated into multiple programmings, allows a seamless publishing platform like Github or how it supports multiple of the advanced layouts.
+
+Highlights that stood out to me:
+
+-   Quarto supports multiple languages (R, Python, Julia, JavaScript) in one document
+
+-   It allows professional output formats such as HTML, PDF, Word, slides, websites, and books
+
+-   Easy publishing to Quarto Pub, GitHub Pages, and Netlify
+
+-   Support for interactive tools like html widgets and Observable JavaScript
+
+Would I use Quarto Daily? Yes! I could see myself using Quarto in the future regularly for both school and a work.
+
+Examples would be:
+
+-   Structured class notes that would include codes and later explanations
+
+-   Creating automated reports for financial or business
+
+-   Presentations with next level visualizations
+:::
+
+## Summarize the video presentation about reproducibility crisis. What do you think about reproducible crisis in your field? How can Quarto help address the concerns you have about reproducibility in the line of your work?
+
+::: callout-note
+### My Response
+
+The video explained that the **reproducibility crisis** refers to the growing issue in research. Published findings can not replicate when others attempted to repeat the study. In many cases, researchers failed to share their raw data or code. Even when others follow the written explanation, they are unable to obtain the same results as before.
+
+Major causes of the crisis:
+
+-   Failure to share data-sets
+
+-   Incomplete documentation
+
+-   Poor statistical practices
+
+Reproducibility is just as important in academic research. Decisions such as financial forecasting, budgeting or market analyses can be based off of data driven reports. In fast-paced environments it is common to work under a deadline. Documentation and workflows are required or else errors can easily occur. Reproducibility crisis highlights how bad undocumented analysis can be to the industry overall.
+
+Quarto directly addresses many of the issues can contributing to the reproducibility problems by combining narrative text or code into a single document
+
+Quarto seems to help by doing:
+
+-   Automatically updating results when data changes
+
+-   Providing clear documentation of methodology
+
+-   Versions you can control like GitHub
+
+-   Self-contained producing reports that include all the outputs
+
+Overall, Quarto has the ability to transform concepts reproducibility into workflow. It ensures that the work is transparent and verifiable which is academic assignments business settings.
+:::
+
+## Summarize what you learned in this module about the Tidyverse ecosystem in R. What can you do with R?
+
+::: callout-note
+### My Response
+
+I learned that Tidyverse is a collection of R packages. They are designed to make data analysis more consistent and efficient. Tidyverse provides readable functions that help follow clear and consistent structure. The core idea was about variables in a column, observation is a row and each type of data forms its own table.
+
+Some main packages I learned:
+
+-   ggplot2: professional and customization visualization
+
+-   tidyr: reshaping and cleaning messy data sets
+
+R allows me to move the raw data to a more polished and shareable report making one workflow. It becomes more powerful academically and better in a business setting. Transparency and accuracy are essential to a clean look.
+:::
+
+## Refer to the video introducing two 20 packages. Among the various packages introduced, choose two packages beyond the Tidyverse ecosystem, base R, and Quarto that could enhance your job/career. Tell me why you think so.
+
+::: callout-note
+### My Response
+
+1.  Tidy-models\
+    Known as the framework for building machine learning models in R. Structured and consistent workflow which helps integrates modeling and evaluation into one system
+
+The Packages allows to enhance things like predictive models which clean and organized in a way. Forecasting and classification analysis. Also following the workflow that can be easy to reproduce.
+
+Predictive modeling is valuable for forecasting sales and customer behavior. Knowing how to use tidy-models has allowed me to move into descriptive analysis and to see into predictive analytics.
+
+2.  Data.Table
+
+    Known as a high-performance package that works with large data sets. Very readable and optimized for speed and memory.
+
+It could enhance my career by handling large data-sets, improving performance in data-heavy environments and reducing computation time for complex analysis.
+
+In professional environments, large financial data sets are common. Performance is also known to be a big part and to matter. Knowing how to use data.table would also allow me to work more efficiently and help me learn how to handle high-volume data tasks.
+:::
+
+## Refer to the debate on R vs. Python. What is your take on this debate?
+
+::: callout-note
+### My Response
+
+The R vs Python debate is a situation where both can benefit you depending on the type of work you're looking to do. R has been known to be greater visualization wise having been designed more for stats and data analysis. While also having a stronger ecosystem for reporting reproducible. On the other hand, Python is more better as it has things like automation and purpose programming learning. This is also a huge boost as it is commonly used in tech companies and is also seen as better for integrating with apps and back-end systems.
+
+My take overall on the debate is depending on what you're work is on, more than likely Python will be more commonly used because the integration into new technology and overall being more simple to learn and adapt to rather than R. With R mistakes are common and some parts may be tougher to learn.
+:::
+
+::: panel-tabset
+## Pros and Cons
+
+| Area | R | Python |
+|----|----|----|
+| Main strength | Statistics & visualization | General programming & ML |
+| Ease for analysis | Very intuitive | Slightly more coding structure |
+| Academic use | Very common | Growing |
+| Industry tech use | Moderate | Very high |
+| Reporting tools | Excellent (Quarto) | Improving |
+:::
